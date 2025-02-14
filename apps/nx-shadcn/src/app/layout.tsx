@@ -1,4 +1,5 @@
-import './global.css';
+import '@nx-shadcn/tailwind';
+import './layout.css';
 
 export const metadata = {
   title: 'Welcome to nx-shadcn',

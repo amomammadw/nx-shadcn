@@ -1,0 +1,4 @@
+/* colors to override from tailwind default config */
+:root {
+  --color-mint-500: red;
+}
