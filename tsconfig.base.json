@@ -16,7 +16,10 @@
     "baseUrl": ".",
     "paths": {
       "@nx-shadcn/tailwind": ["packages/shared/tailwind/src/index.ts"],
-      "@nx-shadcn/ui": ["packages/shared/ui/src/index.ts"]
+      "@nx-shadcn/ui": ["packages/shared/ui/src/index.ts"],
+      "@nx-shadcn/ui/*": ["packages/shared/ui/src/*"],
+      "@nx-shadcn/ui/utils": ["packages/shared/ui/src/utils/index.ts"],
+      "@nx-shadcn/ui/utils/*": ["packages/shared/ui/src/utils/*"]
     }
   },
   "exclude": ["node_modules", "tmp"]
